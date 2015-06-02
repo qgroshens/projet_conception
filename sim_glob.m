@@ -21,8 +21,7 @@ else
     
 end
 
-intensite=propagation(x_A,X,G,Eo,k,l,phase,Z,e,m,ko,D_gaussien);
-[val,local]=findpeaks(intensite,'SORTSTR','descend');
+[val,local]=findpeaks(I,'SORTSTR','descend');
 xmax1=local(1);
 ymax1=val(1);
 xmax2=local(2);
